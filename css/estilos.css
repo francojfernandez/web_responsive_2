@@ -99,3 +99,47 @@ img{
 	padding:15px;
 	margin-bottom: 30px;
 }
+/*Estilos de Cursos*/
+.section__titulo{
+	text-align: center;
+	font-size: 40px;
+	color: #fba919;
+}
+.cursos__columna{
+	position: relative;
+	margin-bottom: 30px;
+}
+.cursos__descripcion{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	background: rgba(0,0,0,0.4);
+	width: 60%;
+	height: 100%;
+	padding: 5px;
+}
+.cursos__titulo{
+	font-size: 25px;
+	margin: 5px 0;
+
+}
+/*Estilos footer*/
+.footer{
+	background:#333;
+	color:#fff;
+	padding:10px;
+	text-align:center;
+}
+.footer [class^="icon-"]{
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	font-size:30px;
+	padding:10px;
+	background: white;
+	border-radius:50%;
+	height:50px;
+	width:50px;
+	line-height:40px;
+}
