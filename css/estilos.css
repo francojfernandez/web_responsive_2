@@ -31,7 +31,6 @@ img{
 	height: 40px;
 	font-size: 30px;
 	background: #fba919;
-	color: #fff;
 	text-align: center;
 	line-height: 45px;/*centrado vertical*/
 	border-radius: 5px;
@@ -40,13 +39,15 @@ img{
 }
 .logo, .icon-menu{
 	margin: 5px;
-
+	color: #fff;
 }
+/*Estilo del menu*/
 .nav{
 	position: absolute;/*para q salga de su lugar*/
 	top: 60px;
-	left: 0;
+	left: -100%;
 	width: 100%;
+	transition: all 0.4s;
 }
 .menu{
 	list-style: none;
@@ -63,4 +64,38 @@ img{
 .menu__link:hover {
 		background: white;
 		color: #fba919;
+}
+.mostrar{
+	left: 0;
+}
+.select{
+	background: white;
+	color: #fba919;
+}
+/*Estilos de banner*/
+.banner{
+	margin-top: -60px;
+	position: relative;/*evitar q tape todo*/
+	z-index: -1000;
+	margin-bottom: 30px;
+}
+.banner__txt{
+	display: none;
+}
+.banner .contenedor{
+	position: absolute; /*centrado perfecto*/
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+
+/*Estilos de info*/
+.info__columna{
+	background: #fba919;
+	color: #fff;
+	padding:15px;
+	margin-bottom: 30px;
 }
