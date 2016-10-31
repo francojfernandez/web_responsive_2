@@ -143,3 +143,38 @@ img{
 	width:50px;
 	line-height:40px;
 }
+/*Estilos responsive*/
+@media(min-width: 480px){
+	.logo{
+		font-size: 40px;	
+	}
+	.banner__titulo{
+		font-size: 30px;
+		margin: 5px 0;
+	}
+	.banner_txt{
+		display: block;
+		font-size: 18px;
+		margin: 7px 0;
+	}
+	.cursos{
+		flex-wrap: wrap;/*contenido q no entre se valla abajo */
+		margin-top: 0;
+	}
+
+	.info .cursos{
+		display: flex;/*poner uno alado de otro*/
+		justify-content: space-between;/*separacion pareja*/
+		margin-top: -90px;
+	}
+	.info__columna{
+		width: 32%;
+	}
+	.info__titulo{
+		font-size: 30px;
+		margin: 5px 0;
+	}
+	.section__titulo{
+		width: 100%;
+	}
+}
